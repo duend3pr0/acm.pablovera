@@ -3,6 +3,7 @@
 class ProductManager {
 
                 autoId = 1;
+                code = 'abc123';
             constructor() {
                 {
                     this.products = [];
@@ -13,24 +14,26 @@ class ProductManager {
                   console.log(this.products);
 
                 }
-                addProduct(title,description, price, thumbnail, code, stock)
+                addProduct(title,description, price, thumbnail, stock)
                 {
+                    let existeCode = this.products.filter(product => product.code === this.code);
+                    
+
+                    if(existeCode)
                     this.products.push({
                         title,
                         description,
                         price,
                         thumbnail,
-                        code,
                         stock,
+                        code: this.code,
                         id : this.autoId
 
                     })
                     this.autoId++
+                    this.code = this.code+this.autoId;
                 }
-                getProductById(id){
-                let productoEncontrado = this.products.filter(id=> )
-                }
-
+               
 
 
         }
@@ -38,11 +41,9 @@ class ProductManager {
 
 let product1 = new ProductManager();
 
-product1.addProduct('Producto prueba','Este es un producto de prueba', 100, 'Sin ruta de imagen', 'abc123', 25);
-product1.addProduct('Producto prueba2','Este es un producto de prueba', 100, 'Sin ruta de imagen', 'abc123', 25);
-product1.addProduct('Producto prueba3','Este es un producto de prueba', 100, 'Sin ruta de imagen', 'abc123', 25);
+product1.addProduct('Producto prueba','Este es un producto de prueba', 100, 'Sin ruta de imagen', 25);
+product1.addProduct('Producto prueba2','Este es un producto de prueba', 100, 'Sin ruta de imagen', 25);
+product1.addProduct('Producto prueba3','Este es un producto de prueba', 100, 'Sin ruta de imagen', 25);
 product1.getProducts();
 
 
-//product1.addProduct('Original Juan Herer', 'Sativa', 1000, 'Sin ruta', 'abcd1234', 30);
-//product1.getProducts();
