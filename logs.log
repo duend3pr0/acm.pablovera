@@ -38,3 +38,5 @@
 {"level":"http","message":"POST en /api/sessions/login - 09:44:25","timestamp":"2023-09-20T12:44:25.791Z"}
 {"level":"http","message":"POST en /api/users - 09:44:46","timestamp":"2023-09-20T12:44:46.093Z"}
 {"level":"http","message":"POST en /api/users - 09:45:53","timestamp":"2023-09-20T12:45:53.583Z"}
+{"level":"http","message":"GET en /api/products - 14:51:17","timestamp":"2023-09-20T17:51:17.009Z"}
+{"level":"http","message":"GET en /api/users - 14:51:22","timestamp":"2023-09-20T17:51:22.604Z"}
