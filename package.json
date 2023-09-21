@@ -1,5 +1,5 @@
 {
-  "name": "repo",
+  "name": "acm.pablovera",
   "version": "1.0.0",
   "description": "",
   "main": "",
@@ -12,7 +12,7 @@
     "lint": "eslint -c .eslintrc ./src"
   },
   "keywords": [],
-  "author": "",
+  "author": "Pablo Vera",
   "license": "ISC",
   "type": "module",
   "engines": {
