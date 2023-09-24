@@ -72,3 +72,4 @@
 {"level":"http","message":"POST en /api/sessions/login - 09:13:50","timestamp":"2023-09-21T12:13:50.756Z"}
 {"level":"http","message":"POST en /api/sessions/login - 09:14:55","timestamp":"2023-09-21T12:14:55.603Z"}
 {"level":"http","message":"POST en /api/users - 09:15:11","timestamp":"2023-09-21T12:15:11.730Z"}
+{"level":"http","message":"GET en /api/products - 12:02:54","timestamp":"2023-09-24T15:02:54.038Z"}
